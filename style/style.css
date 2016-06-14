@@ -34,7 +34,7 @@ font-family: 'Poiret One', cursive;*/
 
 #projects {
   color: white;
-  background-image: url("https://images.unsplash.com/photo-1464054313797-e27fb58e90a9?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=576bb45620043f729baef96301c9acb6");
+  background-image: url("../photos/projects-background.jpg");
   background-position: fixed;
   background-size: 100%;
   background-repeat: no-repeat;
@@ -56,7 +56,21 @@ font-family: 'Poiret One', cursive;*/
   border-radius: 5px;
 }
 
+#resume {
+  background-image: url("../photos/resume-background.jpg");
+  background-position: fixed;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding-bottom: 10%;
+}
+
 #resume h1 {
+  text-align: center;
+  margin: 5%;
+}
+
+footer {
   text-align: center;
   margin: 5%;
 }
