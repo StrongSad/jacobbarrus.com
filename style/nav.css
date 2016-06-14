@@ -1,0 +1,44 @@
+/*font-family: 'Lora', serif;
+font-family: 'Indie Flower', cursive;
+font-family: 'Poiret One', cursive;*/
+
+.navbar {
+  padding-top: .5%;
+  padding-bottom: .5%;
+  background-color: rgba(0,0,0, .1);
+  border: none;
+  margin-bottom: 0;
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+.navbar-text {
+  color: black !important;
+}
+
+#nav-elements {
+  font-family: 'Lora', serif;
+  /*font-family: 'Indie Flower', cursive;*/
+  /*font-family: 'Poiret One', cursive;*/
+  font-size: 1.5em;
+}
+
+@media (min-width: 768px) {
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+    }
+
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+}

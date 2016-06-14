@@ -1,0 +1,62 @@
+/*font-family: 'Lora', serif;
+font-family: 'Indie Flower', cursive;
+font-family: 'Poiret One', cursive;*/
+
+#about {
+  background-image: url(../photos/jacobProfile.jpg);
+  background-position: fixed;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  color: white;
+  padding-top: 17%;
+  font-family: 'Indie Flower', cursive;
+  background-attachment: fixed;
+  margin-top: 0;
+}
+
+#about h1 {
+  font-size: 3em;
+}
+
+#about h2 {
+  font-size: 2em;
+}
+
+#summary {
+  margin-top: 20%;
+  margin-bottom: 3%;
+  font-size: 1.5em;
+  font-family: 'Poiret One', cursive;
+  background-color: rgba(0,0,0,.7);
+  border-radius: 5px;
+  padding: 3%;
+}
+
+#projects {
+  color: white;
+  background-image: url("https://images.unsplash.com/photo-1464054313797-e27fb58e90a9?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=576bb45620043f729baef96301c9acb6");
+  background-position: fixed;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding-top: 3%;
+  padding-bottom: 5%;
+}
+
+#projects h1 {
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+  font-size: 3em;
+  margin-bottom: 4%;
+}
+
+.project-tiles {
+  background-color: rgba(0,0,0, .6);
+  margin-top: 1%;
+  border-radius: 5px;
+}
+
+#resume h1 {
+  text-align: center;
+  margin: 5%;
+}
