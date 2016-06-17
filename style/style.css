@@ -4,7 +4,6 @@ font-family: 'Poiret One', cursive;*/
 
 #about {
   background-image: url(../photos/jacobProfile.jpg);
-  background-position: fixed;
   background-size: 100%;
   background-repeat: no-repeat;
   color: white;
@@ -67,10 +66,29 @@ font-family: 'Poiret One', cursive;*/
 
 #resume h1 {
   text-align: center;
+  font-family: 'Indie Flower', cursive;
+  font-size: 3em;
+  color: white;
   margin: 5%;
+}
+
+#resume a {
+  text-align: center;
+  margin-top: 10px;
 }
 
 footer {
   text-align: center;
   margin: 5%;
 }
+
+footer p {
+  font-family: 'Poiret One', cursive;
+  font-weight: 600;
+}
+
+.email {
+  font-family: 'Lora', serif;
+  font-size: 2em;
+}
+

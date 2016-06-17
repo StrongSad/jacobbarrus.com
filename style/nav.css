@@ -14,6 +14,7 @@ font-family: 'Poiret One', cursive;*/
   display: inline-block;
   float: none;
   vertical-align: top;
+  
 }
 
 .navbar .navbar-collapse {
@@ -32,13 +33,13 @@ font-family: 'Poiret One', cursive;*/
 }
 
 @media (min-width: 768px) {
-    .navbar .navbar-nav {
-        display: inline-block;
-        float: none;
-        vertical-align: top;
-    }
+  .navbar .navbar-nav {
+      display: inline-block;
+      float: none;
+      vertical-align: top;
+  }
 
-    .navbar .navbar-collapse {
-        text-align: center;
-    }
+  .navbar .navbar-collapse {
+      text-align: center;
+  }
 }
